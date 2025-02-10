@@ -1,0 +1,142 @@
+/* IMPORT RULES */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* RESET STYLES */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+  color: var(--stone-600);
+  line-height: 24px;
+}
+
+/* FONT CLASSES */
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.outfit-400 {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outfit-600 {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .outfit-700 {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  
+
+/* VARIABLES */
+:root {
+ --white: hsl(0, 0%, 100%);
+ --stone-100: hsl(30, 54%, 90%);
+ --stone-150: hsl(30, 18%, 87%);
+ --stone-600: hsl(30, 10%, 34%);
+ --stone-900: hsl(24, 5%, 18%);
+
+ --brown-800: hsl(14, 45%, 36%);
+
+ --rose-800: hsl(332, 51%, 32%);
+ --rose-50: hsl(330, 100%, 98%);
+}
+
+/* HEADER */
+header img {
+    width: 100%;
+}
+
+/* HEADINGS */
+h1 {
+    color: var(--stone-900);
+    line-height: 32px;
+}
+
+h2 {
+    color: var(--brown-800);
+}
+
+h3 {
+  color: var(--rose-800);
+}
+
+.bold-me {
+  font-weight: bold;
+}
+
+.move-me {
+  margin-left: 5%;
+}
+
+h1, h2, h3 {
+  margin-bottom: 5%;
+}
+
+/* MAIN */
+
+main {
+  padding: 7%;
+}
+
+/* SECTIONS */
+section, div {
+  margin-bottom: 12%;
+}
+
+.prep-time {
+  background-color: var(--rose-50);
+  border-radius: 15px;
+  padding: 5%;
+}
+
+ul, ol {
+  line-height: 35px;
+  margin-block-start: 1em;
+  padding-inline-start: 15px;
+}
+
+ul::marker, li::marker {
+  color: var(--rose-800); 
+}
+
+ol::marker, li::marker {
+  color: var(--rose-800);
+  font-weight: bold;
+}
+
+hr {
+  border-top: 1px solid var(--stone-150);
+  margin-top: -7%;
+  margin-bottom: 7%;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 3%;
+  border-bottom: 1px solid var(--stone-150);
+}
+
+.brown-bold {
+  color: var(--brown-800);
+  font-weight: bold;
+}
