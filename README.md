@@ -78,7 +78,7 @@ In the future I intend to use what I learned of media queries and variables to c
 
 ## Author
 
-- Frontend Mentor - [@bnikko-cathell](https://www.frontendmentor.io/profile/nikko-cathell)
+- Frontend Mentor - [@nikko-cathell](https://www.frontendmentor.io/profile/nikko-cathell)
 - Github - [@nikko-cathell](https://github.com/nikko-cathell)
 
 ## Acknowledgments
